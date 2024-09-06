@@ -1,11 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	background: linear-gradient(to top, #ffffff, #009c8f);
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	font-family: "Playwrite CU", cursive;
+	padding: 0 0;
+	margin: 0 0;
 }

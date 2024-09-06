@@ -20,6 +20,10 @@ const routes = createBrowserRouter([
 				path: "/",
 				element: <GestureAnimation />,
 			},
+			{
+				path: "/keyframes",
+				element: <h1>KeyFrames</h1>,
+			},
 		],
 	},
 ]);
