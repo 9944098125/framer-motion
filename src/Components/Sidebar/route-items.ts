@@ -1,13 +1,20 @@
-import { FaHome, FaKey } from "react-icons/fa";
+import { FaDragon, FaScroll } from "react-icons/fa";
+import { MdGesture } from "react-icons/md";
+
 export const routeItems = [
 	{
 		link: "/",
-		label: "Home",
-		icon: FaHome,
+		label: "Gesture Animation",
+		icon: MdGesture,
 	},
 	{
 		link: "/keyframes",
-		label: "Key Frames",
-		icon: FaKey,
+		label: "In-Bound Drag",
+		icon: FaDragon,
+	},
+	{
+		link: "/scroll",
+		label: "Scroll Animations",
+		icon: FaScroll,
 	},
 ];

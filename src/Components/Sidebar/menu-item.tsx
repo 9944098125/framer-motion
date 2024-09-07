@@ -31,9 +31,7 @@ export const MenuItem = ({ i }: any) => {
 					style={{ border: `4px solid white` }}>
 					<i.icon color="white" fontSize={20} />
 				</div>
-				<div
-					className="w-full px-5 py-1"
-					style={{ borderBottom: "4px solid white" }}>
+				<div className="" style={{ borderBottom: "4px solid white" }}>
 					<p className="text-lg font-bold text-white">{i.label}</p>
 				</div>
 			</motion.li>
