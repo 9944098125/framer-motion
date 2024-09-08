@@ -3,6 +3,9 @@ import Sidebar from "../Components/Sidebar";
 import GestureAnimation from "../Pages/gesture-animation/gesture-animation";
 import Drag from "../Pages/drag/drag";
 import Scroll from "../Pages/scroll/scroll";
+import Switch from "../Pages/switch/switch";
+import Tabs from "../Pages/tabs/tabs";
+import Draw from "../Pages/draw/draw";
 
 const Layout = () => {
 	return (
@@ -31,6 +34,18 @@ const routes = createBrowserRouter([
 			{
 				path: "/scroll",
 				element: <Scroll />,
+			},
+			{
+				path: "/switch",
+				element: <Switch />,
+			},
+			{
+				path: "/tabs",
+				element: <Tabs />,
+			},
+			{
+				path: "/draw",
+				element: <Draw />,
 			},
 		],
 	},

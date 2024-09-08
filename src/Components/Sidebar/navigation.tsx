@@ -12,8 +12,8 @@ const variants = {
 	},
 };
 
-export const Navigation = () => (
-	<motion.ul variants={variants}>
+export const Navigation = ({ isOpen }: any) => (
+	<motion.ul variants={variants} style={{ zIndex: isOpen ? "199" : "-1" }}>
 		{routeItems.map((i) => (
 			<MenuItem i={i} key={i} />
 		))}

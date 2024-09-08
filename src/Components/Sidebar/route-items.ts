@@ -1,5 +1,10 @@
 import { FaDragon, FaScroll } from "react-icons/fa";
-import { MdGesture } from "react-icons/md";
+import {
+	MdDraw,
+	MdGesture,
+	MdSwitchAccessShortcut,
+	MdTab,
+} from "react-icons/md";
 
 export const routeItems = [
 	{
@@ -16,5 +21,20 @@ export const routeItems = [
 		link: "/scroll",
 		label: "Scroll Animations",
 		icon: FaScroll,
+	},
+	{
+		link: "/switch",
+		label: "Toggle Switch",
+		icon: MdSwitchAccessShortcut,
+	},
+	{
+		link: "/tabs",
+		label: "Tabs",
+		icon: MdTab,
+	},
+	{
+		link: "/draw",
+		label: "Draw Lines",
+		icon: MdDraw,
 	},
 ];
