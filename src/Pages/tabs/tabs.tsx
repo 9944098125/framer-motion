@@ -29,7 +29,11 @@ export default function Tabs() {
 				<main>
 					<AnimatePresence mode="wait">
 						<motion.i
-							style={{ fontSize: "300px", fontStyle: "normal" }}
+							style={{
+								fontSize: "200px",
+								marginBottom: "-100px",
+								fontStyle: "normal",
+							}}
 							key={selectedTab ? selectedTab.label : "empty"}
 							initial={{ y: 10, opacity: 0 }}
 							animate={{ y: 0, opacity: 1 }}

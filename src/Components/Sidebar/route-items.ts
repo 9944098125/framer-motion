@@ -2,6 +2,7 @@ import { FaDragon, FaScroll } from "react-icons/fa";
 import {
 	MdDraw,
 	MdGesture,
+	MdMenu,
 	MdSwitchAccessShortcut,
 	MdTab,
 } from "react-icons/md";
